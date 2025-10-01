@@ -1,0 +1,97 @@
+/* ===============================
+global 
+=============================== */
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #202124
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    font-size: 38px;
+    color: black;
+}
+a{
+    display: block;
+    text-align: right;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    border-radius: 8px;
+    cursor:pointer;
+}
+.search_bar{
+    width: 400px;
+    height: 10px;
+    border: 1px solid gray;
+    border-radius: 24px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 10px;;
+}
+
+/* ===============================
+index.html
+=============================== */
+
+.index_button{
+    width: 180px;
+    height: 30px;
+}
+
+/* ===============================
+advanced.html
+=============================== */
+
+#advanced_h1{
+    margin-left: 40px;
+    color:darkred;
+    text-align: left;
+}
+#advanced_search_form{
+    margin-top: 80px;
+    align-items: flex-start;
+}
+.filters{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.filters label{
+    min-width: 150px;
+    text-align: right;
+    margin-top: 13px;
+}
+.advanced_filter{
+    width: 240px;
+    height: 20px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+#advanced_filter_button{
+    margin-top: 15px;
+    margin-left: 300px;
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+}
+
+/* ===============================
+images.html
+=============================== */
+    
+.images_button{
+    width: 240px;
+    height: 30px;
+}
